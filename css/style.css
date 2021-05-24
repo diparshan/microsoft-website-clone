@@ -1,0 +1,244 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  background-color: white;
+  color: black;
+  line-height: 1.5;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  max-width: 1100px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+li {
+  list-style-type: none;
+}
+
+.btn {
+  border: none;
+  background-color: black;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  height: 40px;
+  width: 140px;
+}
+
+.btn:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+.btn2 {
+  border: none;
+  background-color: white;
+  color: #0067b8;
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.btn2:hover i {
+  margin-left: 7px;
+}
+
+/*Navigation bar*/
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 13px;
+  padding: 20px 0 20px 0;
+}
+
+.nav img {
+  height: 25px;
+}
+
+.main-nav .main-menu,
+.main-nav .right-menu {
+  display: flex;
+}
+
+.main-menu li,
+.right-menu li {
+  padding: 0 10px;
+}
+
+.main-menu {
+  flex: 1;
+  margin-left: 20px;
+}
+
+.middle-menu {
+  margin-right: 30px;
+}
+
+.main-nav a:hover {
+  border-bottom: black 2px solid;
+}
+
+.main-nav a {
+  padding-bottom: 3px;
+}
+
+/*Showcase*/
+.showcase {
+  height: 400px;
+  background: url(../images/slide1.png) no-repeat center/cover;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.showcase .btn {
+  margin-bottom: 50px;
+}
+
+.showcase p {
+  margin: 10px 0 25px 0;
+}
+
+.showcase h1 {
+  font-size: 25px;
+}
+
+/*Home cards*/
+.home-cards img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.home-cards {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+}
+
+.home-cards h2 {
+  font-size: 17px;
+}
+
+.home-cards p {
+  padding: 5px 0 10px 0;
+}
+
+/*Xbox section*/
+.xbox {
+  height: 400px;
+  background: url(../images/xbox.png) no-repeat center/cover;
+  margin: 20px 0;
+}
+
+.xbox div {
+  width: 40%;
+  padding: 100px 30px;
+}
+
+.xbox p {
+  margin: 5px 0 20px 0;
+}
+
+/*Carbon Section*/
+.carbon {
+  background: url(../images/carbon.jpeg) no-repeat center/cover;
+  height: 350px;
+  width: 100%;
+  margin: 20px 0;
+  color: white;
+}
+
+.carbon div {
+  width: 50%;
+  padding: 100px 30px;
+}
+
+.carbon .btn {
+  background-color: white;
+  color: black;
+}
+
+.carbon p {
+  margin: 10px 0 20px 0;
+}
+
+/*Social section*/
+.social {
+  display: flex;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.social img {
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+/*footer*/
+.footer {
+  width: 100%;
+  background-color: #f2f2f2;
+  color: #616161;
+}
+
+/*Links*/
+.links-inner {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 20px;
+  justify-content: center;
+  padding: 30px;
+  width: 80%;
+  max-width: 1100px;
+  align-content: center;
+  margin: 0 auto;
+}
+
+.links-inner li {
+  margin: 10px 0 10px 0;
+  font-size: 13px;
+}
+
+.links-inner h3 {
+  font-size: 16px;
+}
+
+/*lower footer*/
+.lower-footer {
+  max-width: 1200px;
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 20px 30px 20px;
+}
+
+.lower-footer div.others ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.lower-footer .others li {
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+.lower-footer .logo p {
+  margin-right: 30px;
+}
