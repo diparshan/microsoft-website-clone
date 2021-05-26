@@ -242,3 +242,35 @@ li {
 .lower-footer .logo p {
   margin-right: 30px;
 }
+
+@media (max-width: 700px) {
+  .home-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .links-inner {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 500px) {
+  .home-cards {
+    grid-template-columns: 1fr;
+  }
+
+  .xbox p,
+  .carbon p {
+    display: none;
+  }
+  .xbox h1,
+  .carbon h1 {
+    margin-bottom: 20px;
+  }
+
+  .links-inner {
+    grid-template-columns: 1fr;
+  }
+  .links-inner ul li {
+    text-align: center;
+  }
+}
